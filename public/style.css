@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navList {
+    display: flex;
+    align-items:center;
+    justify-content:left;
+    list-style-type: none;
+}
+.navButton {
+    padding-right: 20px;
+    cursor: pointer;
+    text-decoration: underline rgb(25, 13, 163) 2px;
+}
+
+.alertMessage {
+    color: rgb(207, 137, 7);
+}
+
+.maintenanceContainer {
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+}
+
+.maintenanceSupplyInput {
+    display: flex;
+}
+
+table, th{
+    border:1px solid black;
+}
+
+td {
+    height: min-content;
+    align-items: center;
+    border-bottom:1px solid black;
+}
+
+.maintenanceInputContainer, .maintenanceTableContainer {
+    width: 50%;
+}
+.maintenanceInputContainer {
+    
+}
+
+.maintenanceFormContainer{
+    padding:3px;
+    width: min-content;
+    border:1px solid black
+}
+
+.itemDescriptionTable {
+    align-items: center;
+    height: 30px;
+    width: 100px
+}
+
+ .maintenanceSupplyInput {
+    height: 30px;
+} 
+
+.inputMaintenance {
+    width: 100px
+}
+
+.supplyButton {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+}
